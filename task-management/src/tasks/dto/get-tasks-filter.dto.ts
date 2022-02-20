@@ -1,5 +1,5 @@
 import { IsEnum, IsOptional, IsString } from 'class-validator';
-import { TaskStatus } from '../task.model';
+import { TaskStatus } from '../task-status.enum';
 
 export class GetTasksFilterDto {
   @IsOptional() // dido: IsOptional is required if we want to use validation.
